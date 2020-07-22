@@ -1,0 +1,100 @@
+.agents {
+    margin: 6rem 2rem 0 2rem;
+}
+
+.agents h3 {
+    color: #1dbb86;
+}
+
+.agents p {
+    color: #4e4e4e;
+    opacity: 0.87;
+}
+
+.agents .row .col-md-4 .card {
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.agents .row .col-md-4 .card .card-body {
+    background: #1dbb86;
+}
+
+.agents .row .col-md-4 .card .card-body .links{
+    background: #4e4e4e;
+    display: none;
+    padding: 5px;
+}
+
+.agents .row .col-md-4 .card .card-body .links:hover{
+    display: inherit;
+}
+
+.agents .row .col-md-4 .card .card-body .links a {
+    margin-right: 5%;
+    margin: 5%;
+}
+
+.agents .row .col-md-4 .card .card-body .links a i {
+    color: #1dbb86;
+    font-size: 20px;
+}
+
+@media (max-width: 814px) {
+    .agents .row .col-md-4 .card .card-body .card-title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .agents .row .col-md-4 .card {
+        margin-top: 40px;
+    }
+    .agents p {
+        margin-bottom: -20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .agents {
+        margin: 5rem 1.7rem 0 1.7rem;
+    }
+    .agents h3 {
+        font-size: 23px;
+    }
+    .agents .row .col-md-4 .card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 650px) {
+    .agents {
+        margin: 5rem 1.7rem 0 1.7rem;
+    }
+    .agents h3 {
+        font-size: 25px;
+    }
+    .agents p {
+        font-size: 16px;
+    }
+    .agents .row .col-md-4 .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .agents {
+        margin: 4rem 1rem 0 1rem;
+    }
+    .agents h3 {
+        font-size: 17px;
+    }
+    .agents p {
+        font-size: 14px;
+    }
+    .agents .row .col-md-4 .card {
+        width: 100%;
+    }
+}

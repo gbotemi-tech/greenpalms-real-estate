@@ -1,0 +1,63 @@
+.property {
+    margin: 6rem 2rem 0 2rem;
+}
+
+.property h3 {
+    color: #1dbb86;
+}
+
+.property p {
+    color: #4e4e4e;
+    opacity: 0.87;
+}
+
+.property .row .col-md-4 .card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+.property .row .col-md-4 .card img {
+    animation-duration: 2s;
+    border-radius: 10px;
+}
+
+.property .row .col-md-4 .card .second {
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.property .row .col-md-4 .card .third {
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+.property .row .col-md-4 .card .card-body .card-title {
+    margin: -10px 0px 0px 0px;
+    color: #1dbb86;
+}
+
+
+@media (max-width: 767px) {
+    .property .row .col-md-4 .card img {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .property .row .col-md-4 .card img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .property {
+        margin: 15px 10px 0px 12px;
+    }
+    .property h3 {
+        margin: 55px 0px 0px 0px;
+        font-size: 16px;
+    }
+    .property p {
+        font-size: 13px;
+    }
+}

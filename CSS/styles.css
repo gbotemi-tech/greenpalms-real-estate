@@ -1,0 +1,355 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, p, div {
+	margin: 0;
+	padding: 0;
+}
+
+/* Navbar */
+nav {
+    border-bottom: 1px solid #1dbb86;
+    opacity: 0.9;
+}
+
+.navbar-nav {
+	margin-right: 20px;
+	
+}
+
+.navbar .navbar-brand {
+	margin-left: 40px;
+	font-size: 2rem;
+	font-weight: 600;
+	cursor: default;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+/* Toggler */
+.line {
+	width: 30px;
+	height: 3px;
+	margin: 5px 0;
+	background: #1dbb86;
+}
+
+/*Showcase*/ 
+.showcase {
+	position: relative;
+	color: #fff;
+	margin: auto;
+}
+
+.showcase-img {
+	position: relative;
+}
+
+/*SHOWCASE Caption text */
+.showcase .content {
+    position: absolute;
+    top: 20vw;
+    left: 25vw;
+	/* width: 550px; */
+}
+
+.showcase .content h2 {
+	font-size: 45px;
+}
+
+.showcase .content p {
+	margin-top: 10px;
+}
+
+.showcase .content .btn {
+	background: #1dbb86;
+	margin-top: 10px;
+	outline: none;
+	font-size: 18px;
+	color: #fff;
+	padding: 12px 30px;
+}
+
+.showcase .content .btn:hover {
+	background: #4e4e4e;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+.showcase-header {
+	font-size: 4.3rem;
+	margin-bottom: 20px;
+}
+
+.showcase-info {
+	font-size: 0.9rem;
+	line-height: 1.5;
+	margin-bottom: 50px;
+	color: #c4c4c4;
+}
+
+.showcase-button {
+	border: none;
+	background: #dd383a;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 18px;
+	width: 239px;
+	height: 50px;
+}
+
+.showcase-button:hover {
+	opacity: 0.8;
+}
+
+
+/* Footer */
+footer {
+	background: #434343;
+	padding: 5rem 5rem 2rem 5rem;
+	color: #fff;
+}
+
+.footer h3 {
+	font-size: 1.2rem;
+	margin-bottom: 18px;
+	opacity: 0.8;
+}
+
+.footer p {
+	font-size: 15px;
+	opacity: 0.5;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	margin: 10px 0;
+	font-size: 15px;
+	opacity: 0.5;
+}
+
+.footer .newsletter .sign-up h3 {
+	font-size: 1.2rem;
+}
+
+.footer form input {
+	width: 100%;
+	background: #ffffff;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+}
+
+.footer-input {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.footer-button {
+	background: #dd383a;
+	border-radius: 5px;
+	width: 30%;
+	height: 44.5px;
+	border: none;
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.footer-button:hover {
+	opacity: 0.8;
+}
+
+.footer .newsletter .sign-up a i {
+	margin: 5px;
+	font-size: 25px;
+	color: #1dbb86;
+}
+
+.disclaimer a{
+	color: #1dbb86;
+}
+
+/*HOW IT WORKS*/
+.processes {
+	background: #1dbb86;
+}
+
+.processes .steps .row div h4 {
+	color: #0a223d;
+	font-size: 20px;
+}
+
+.processes .steps .row .find i {
+	color: #0a223d;
+	font-size: 40px;
+	font-weight: 530;
+}
+
+.processes .steps .row .pay i {
+	color: #0a223d;
+	font-size: 40px;
+	font-weight: 530;
+}
+
+.processes .steps .row .owner i {
+	color: #0a223d;
+	font-size: 40px;
+	font-weight: 530;
+}
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .showcase .text-center {
+        top: 20vw;
+        left: 25vw;
+	}
+}
+
+@media (max-width: 1000px) {
+    .showcase .text-center {
+        top: 20vw;
+        left: 18vw;
+	}
+	.showcase .content .btn {
+		padding: 10px 25px;
+	}
+}
+
+@media (max-width: 800px) {
+    .showcase .text-center {
+        top: 15vw;
+        left: 15vw;
+	}
+	.showcase .content h2 {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		margin-left: 30px;
+		font-size: 25px !important;
+	}
+}
+
+@media (max-width: 500px) {
+    .showcase .text-center {
+        top: 15vw;
+        left: 2vw;
+	}
+	.navbar-brand {
+		margin-left: 10px;
+	}
+	
+	.showcase .content p {
+		font-size: 12px;
+	}
+	.showcase .content .btn {
+		padding: 7px 20px;
+	}
+	/* .dot {
+		top: 50%;
+	} */
+}
+
+@media screen and (max-width: 400px) {
+	nav {
+		opacity: 1;
+	}
+	.navbar-brand {
+		margin-left: 10px;
+		font-size: 15px !important;
+	}
+	.navbar-nav {
+		margin-right: 10px;
+	}
+	.navbar .navbar-brand {
+		font-size: 1.1rem;
+	}
+	.nav-link {
+		font-size: .8rem;
+	}
+	/* Toggler */
+	.line {
+		width: 22px;
+		height: 2px;
+		margin: 4px 0;
+	}
+	/*HOW IT WORKS*/
+	.processes h2 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.processes .steps .col-md-4 {
+		margin-top: -8px;
+	}
+	.processes .steps .row div h4 {
+		font-size: 15px !important;
+		margin-top: -18px;
+	}
+	.processes .steps .row .find i {
+		font-size: 30px;
+	}
+	.processes .steps .row .pay i {
+		font-size: 30px;
+	}
+	.processes .steps .row .owner i {
+		font-size: 30px;
+	}
+	/*FOOTER*/
+	footer {
+		padding: 1rem .8rem 1rem 1rem;
+	}
+	.footer h3 {
+		font-size: .9rem;
+		margin-bottom: 7px;
+	}
+	.footer p {
+		font-size: 13px;
+	}
+	footer ul li {
+		margin: 4px 0;
+		font-size: 13px;
+	}
+	.footer .newsletter .sign-up h3 {
+		font-size: .9rem;
+	}
+	.footer form input {
+		width: 100%;
+		padding: 3px;
+	}
+	.footer-input {
+		margin-bottom: 20px;
+	}
+	.footer-button {
+		width: 20%;
+		height: 31px;
+		font-size: 10px;
+	}
+	.footer .newsletter .sign-up a i {
+		margin: 3px;
+		font-size: 20px;
+	}
+	.disclaimer {
+		font-size: 12px;
+	}
+}
