@@ -294,7 +294,7 @@ footer ul li {
 		height: 2px;
 		margin: 4px 0;
 	}
-.showcase .content h2 {font-size:25px;}
+.showcase .content h2 {font-size:25px !important;}
 	/*HOW IT WORKS*/
 	.processes h2 {
 		font-size: 20px;
