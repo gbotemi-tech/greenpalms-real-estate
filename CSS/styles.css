@@ -259,7 +259,6 @@ footer ul li {
 	.navbar-brand {
 		margin-left: 10px;
 	}
-	
 	.showcase .content p {
 		font-size: 12px;
 	}
@@ -291,7 +290,6 @@ footer ul li {
 		height: 2px;
 		margin: 4px 0;
 	}
-<<<<<<< HEAD
 	.showcase .content h2 {
 		font-size: 16px;
 	}
@@ -299,11 +297,6 @@ footer ul li {
 		padding: 5px 15px !important;
 		font-size: 12px;
 	}
-=======
-.showcase .content h2 {font-size:25px !important;}
-.showcase-img {height: 400px !important;}
-.showcase .content .btn {padding: 7px 16px !important; font-size: 13px !important;}
->>>>>>> 1a5b11260a6a5a1a1a482d05214346fa7f330c8e
 	/*HOW IT WORKS*/
 	.processes h2 {
 		font-size: 20px;
