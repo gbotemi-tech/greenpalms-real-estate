@@ -357,7 +357,10 @@ footer ul li {
 	}
 }
 
-@media (max-width: 274px) {
+@media (max-width: 330px) {
+	.showcase .content h2 {
+		margin-top: 10px;
+	}
 	.showcase .content .btn {
 		display: none;
 	}
