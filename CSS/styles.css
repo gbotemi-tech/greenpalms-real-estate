@@ -357,7 +357,7 @@ footer ul li {
 	}
 }
 
-@media (max-width: 330px) {
+@media (max-width: 300px) {
 	.showcase .content h2 {
 		margin-top: 10px;
 	}
