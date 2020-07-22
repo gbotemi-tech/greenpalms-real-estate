@@ -266,9 +266,6 @@ footer ul li {
 	.showcase .content .btn {
 		padding: 7px 20px;
 	}
-	/* .dot {
-		top: 50%;
-	} */
 }
 
 @media screen and (max-width: 400px) {
@@ -276,7 +273,7 @@ footer ul li {
 		opacity: 1;
 	}
 	.navbar-brand {
-		margin-left: 10px;
+		margin-left: 7px !important;
 		font-size: 15px !important;
 	}
 	.navbar-nav {
@@ -293,6 +290,13 @@ footer ul li {
 		width: 22px;
 		height: 2px;
 		margin: 4px 0;
+	}
+	.showcase .content h2 {
+		font-size: 16px;
+	}
+	.showcase .content .btn {
+		padding: 5px 15px !important;
+		font-size: 12px;
 	}
 	/*HOW IT WORKS*/
 	.processes h2 {
@@ -351,5 +355,11 @@ footer ul li {
 	}
 	.disclaimer {
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 274px) {
+	.showcase .content .btn {
+		display: none;
 	}
 }
